@@ -4,7 +4,7 @@ from scripts.extract_embeddings import extract_embeddings
 
 if __name__ == "__main__":
   # Load the audio file
-  audio_path = "data/sp30_train_sn0.wav"
+  audio_path = "data/initial_samples/sp27_train_sn0.wav"
 
   """
   Run ASR inference to get n-best hypotheses.
