@@ -11,6 +11,8 @@
 
 [TED-LIUM Dataset](https://huggingface.co/datasets/LIUM/tedlium)
 
+[Ambient Noise Dataset](https://huggingface.co/datasets/psiyou/ambient_noise_dataset)
+
 
 # Other Datasets
 [MultiLingual LibriSpeech (English only)](https://huggingface.co/datasets/parler-tts/mls_eng)
@@ -23,7 +25,7 @@
 # Version 01: Narrated Speech Simulation
 1. (Main Speech) Utilize [clean speech](https://huggingface.co/datasets/LIUM/tedlium)
 2. (Ambient Noise) Inject [room reverberations](https://huggingface.co/datasets/benjamin-paine/mit-impulse-response-survey)
-3. (Random Noise) Inject [random noise](https://huggingface.co/datasets/yangwang825/audioset)
+3. (Random Noise) Inject [random noise](https://huggingface.co/datasets/psiyou/ambient_noise_dataset)
 4. (Multi-Talk) Inject [interfering speakers](https://huggingface.co/datasets/MLCommons/peoples_speech)
 - Loop noise to match the length of the clean main speech
 
@@ -31,7 +33,7 @@
 # Version 02: Spontaneous Accented Speech Simulation
 1. (Main Speech) Utilize [accented speech](https://huggingface.co/datasets/CSTR-Edinburgh/vctk)
 2. (Ambient Noise) Inject [room reverberations](https://huggingface.co/datasets/benjamin-paine/mit-impulse-response-survey)
-3. (Random Noise) Inject [random noise](https://huggingface.co/datasets/yangwang825/audioset)
+3. (Random Noise) Inject [random noise](https://huggingface.co/datasets/psiyou/ambient_noise_dataset)
 4. (Multi-Talk) Inject [interfering speakers](https://huggingface.co/datasets/MLCommons/peoples_speech)
 
 
