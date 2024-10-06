@@ -1,11 +1,9 @@
-# Imports
+# IMPORTS 
 import sys
 import os
 
-# Path to your local Whisper repository
-whisper_path = '/Users/caitlin/_Caitlin/Code/whisper'  # Update with the correct path
+whisper_path = '/Users/caitlin/_Caitlin/Code/whisper'
 
-# Insert the path to the top of the list
 sys.path.insert(0, whisper_path)
 
 import whisper
