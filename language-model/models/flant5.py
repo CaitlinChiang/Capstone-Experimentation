@@ -1,6 +1,10 @@
 # IMPORTS
+import sys
+import os
 from transformers import T5ForConditionalGeneration, T5Tokenizer
-from ...data.hypotheses_samples.hypotheses import hypotheses
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+from data.hypotheses_samples.hypotheses import hypotheses
 
 model = T5ForConditionalGeneration.from_pretrained('google/flan-t5-small')
 tokenizer = T5Tokenizer.from_pretrained('google/flan-t5-small')

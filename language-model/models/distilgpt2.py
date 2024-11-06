@@ -1,7 +1,11 @@
 # IMPORTS
+import sys
+import os
 import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
-from ...data.hypotheses_samples.hypotheses import hypotheses
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+from data.hypotheses_samples.hypotheses import hypotheses
 
 model = GPT2LMHeadModel.from_pretrained('distilgpt2')
 tokenizer = GPT2Tokenizer.from_pretrained('distilgpt2')
