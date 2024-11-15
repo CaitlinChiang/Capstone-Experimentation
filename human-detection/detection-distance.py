@@ -89,6 +89,10 @@ while True:
     nearest_index = None
     max_height = 0
 
+    # Adjust to handle indices as a tuple or a list
+    if isinstance(indices, tuple):
+        indices = indices[0]  # Unpack the first element if it's a tuple
+
     for i in indices.flatten():
         x, y, w, h = boxes[i]
         if h > max_height:
