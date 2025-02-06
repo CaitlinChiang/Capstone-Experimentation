@@ -12,3 +12,5 @@ scores = [(hypothesis, model.score(hypothesis)) for hypothesis in hypotheses]
 best_hypothesis = sorted(scores, key=lambda x: x[1], reverse=True)[0]
 
 print("Best hypothesis:", best_hypothesis[0])
+
+# UNDERSTAND INSTRUCTIONS

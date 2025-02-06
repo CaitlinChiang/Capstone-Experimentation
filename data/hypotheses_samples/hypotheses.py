@@ -10,3 +10,4 @@ hypotheses = [
     "The quick brown fox jumps over that lazy dog.",
     "The quick brown fox jumps over a lazy dog."
 ]
+
